@@ -1,0 +1,227 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+    /* border: 1px solid red; */
+    }
+#Accueil{
+    background-color: #eee;
+    height: 60vh;
+    margin-top: 0;
+}
+.head{
+    width: 100%;
+}
+.navbar{
+    margin:20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 15px;
+    top: 0;left: 0;right: 0;
+    /* position: fixed; */
+}
+.logo{
+    color: black;
+    font-size: 28px;
+    
+}
+.logo span{
+    color: blue;
+}
+.navbar ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+.navbar ul li a{
+    color: black;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 15px;
+}
+.container{
+    margin: 0 10%;
+    margin-bottom: 50px;
+}
+.accueil-1{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between
+    
+}
+.accueil-1 h1{
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.accueil-1 h3{
+    font-size: 25px;
+    font-weight: 300;
+    margin-top: 20px;
+}
+button {
+    align-items: center;
+    margin-top: 20px;
+    font-size: 40px;
+    color: blue;
+    background-color: transparent;
+    border-radius: 30px;
+    border: 1px solid blue;
+}
+/* partie à propos */
+.apropos{
+    /* background-color: #fff; */
+    height: 100vh;
+}
+.apropos h2{
+    color: blue;
+    font-size: 35px;
+    font-weight: 300;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.apropos .para1{    
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.card-apropos{
+    display: flex;
+    justify-content: space-between;
+}
+.card-apropos .ap{
+    width: 50%;
+}
+.card-apropos img{
+    width: 200px;
+    margin-top: 40px;
+    align-items: center;
+    border-radius: 60%
+}
+.card-apropos  .cv{
+    font-size: 20px;
+    width: 100%;
+    border-radius: 5px ;
+    background-color: blue;
+    color: white;
+}
+
+/* partie porfolio */
+.card-porfolio{
+    height: 80vh;
+}
+.card-porfolio h2{
+    color: blue;
+    font-size: 35px;
+    font-weight: 300;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.card-porfolio .type{
+    background-color: #eee;
+    height: 30px;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    
+}
+.card-porfolio .cards{
+    width: 50%;
+}
+.card-porfolio ul{
+    list-style-type: none;
+    justify-items: flex-end;
+}
+.card-porfolio ul li{
+    margin: 0 100px;
+}
+.card-porfolio ul li:active{
+    color: blue;
+}
+.card-porfolio h3{
+    font-size: 25px;
+    font-weight: 300;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.card-porfolio .desc{
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+.card-porfolio button {
+
+    font-size: 20px;
+    width: 100%;
+    border-radius: 5px ;
+    background-color: blue;
+    color: white;
+}
+.card-porfolio .cards-img{
+    border: 1px solid blue;
+    width: 50%;
+}
+.card-porfolio .card2{
+    display: flex;
+}
+.card-porfolio .cards-img img{
+    width: 25%;
+    margin: 40px 20px;
+    justify-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+
+/* patie servcices */
+.services{
+    background-color: #fcf9f9;
+    height: 100vh;
+}
+.services h2{
+    color: blue;
+    font-size: 35px;
+    font-weight: 300;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.services .mesCards{
+    margin: 30px;
+    display: flex;
+    justify-content: space-around
+}
+.services .mesCards h3{
+    margin: 20px 0;
+    font-weight: 400;
+}
+.services .mesCards p{
+    margin: 20px 0;
+    font-size: 15px;
+}
+.services .c1{
+    background-color: #fff;
+    width: 45%
+    
+}
+/* partie expériences */
+.experiences{
+    /* background-color: black; */
+    height: 100vh;
+}
+.experiences h2{
+    color: blue;
+    font-size: 35px;
+    font-weight: 300;
+    margin: 40px 0;
+}
+    
+
+.experiences .comp .card{
+    width: 100px;
+    height: 100px;
+}
+
+footer{
+    
+}
